@@ -27,7 +27,7 @@ class Drop{
     rainPosition(){
 
         if(this.rain.position.y>height){
-            Matter.Body.setPosition(this.rain,{x:random(0,400),y:random(0,400)}) 
+            Matter.Body.setPosition(this.rain,{x:random(0,650),y:random(0,400)}) 
         }
         
     }
